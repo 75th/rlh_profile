@@ -1,0 +1,93 @@
+name = RLH Drupal
+description = Lanny Heidbreder's default Drupal install
+core = 7.x
+
+; Modules from standard.info
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+files[] = rlh_profile.profile
+
+
+; Other
+dependencies[] = strongarm
+dependencies[] = less
+dependencies[] = libraries
+dependencies[] = role_delegation
+dependencies[] = weight
+dependencies[] = navigation404
+; Core
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = update
+dependencies[] = user
+dependencies[] = dblog
+; Administration
+dependencies[] = admin_devel
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+; Chaos tool suite
+dependencies[] = bulk_export
+dependencies[] = ctools
+dependencies[] = ctools_access_ruleset
+dependencies[] = ctools_ajax_sample
+dependencies[] = ctools_custom_content
+dependencies[] = stylizer
+dependencies[] = views_content
+; Context
+dependencies[] = context
+dependencies[] = context_layouts
+dependencies[] = context_ui
+; Media
+dependencies[] = imce
+; User interface
+dependencies[] = imce_wysiwyg
+dependencies[] = wysiwyg
+; Features
+dependencies[] = wysiwyg_ck
+dependencies[] = responsive_slideshow
+dependencies[] = features
+; Views
+dependencies[] = views
+; Misc
+dependencies[] = pleth_tweaks
