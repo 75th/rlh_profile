@@ -35,13 +35,14 @@ function rlh_profile_install_tasks_alter(&$tasks, $install_state) {
 /**
  * Implements hook_install_tasks().
  */
+/*
 function rlh_profile_install_tasks($install_state) {
   return array(
     // Just a hidden task callback.
     'rlh_profile_profile_setup' => array(),
   );
 }
-
+*/
 /**
  * Installer task callback.
  */

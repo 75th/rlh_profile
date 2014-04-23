@@ -52,6 +52,7 @@ projects[] = navigation404
 projects[] = node_clone
 projects[] = override_node_options
 projects[] = pathauto
+projects[] = redirect
 projects[] = recaptcha
 projects[] = role_delegation
 projects[] = rss_permissions
@@ -78,6 +79,11 @@ projects[rlh_tweaks][type] = "module"
 projects[rlh_tweaks][download][type] = "git"
 projects[rlh_tweaks][download][url] = "git@bitbucket.org:75th/rlh-tweaks.git"
 projects[rlh_tweaks][download][branch] = "master"
+
+projects[aris_promo_link][type] = "module"
+projects[aris_promo_link][download][type] = "git"
+projects[aris_promo_link][download][url] = "git@bitbucket.org:aristotleselect/aris_promo_link.git"
+projects[aris_promo_link][download][branch] = "master"
 
 ; THEMES
 projects[zen][version] = 3.2
