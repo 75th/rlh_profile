@@ -156,7 +156,8 @@ function rlh_profile_install() {
   }
 
   // Disable some modules
-  module_disable(array('overlay', 'toolbar', 'color', 'comment'));
+  module_disable(array('overlay', 'toolbar', 'color', 'comment', 'contextual', 'dashboard', 'rdf'));
+  module_enable(array('php', 'user_settings_access', 'admin_menu', 'admin_menu_toolbar', 'ctools', 'context', 'context_ui', 'rlh_tweaks', 'date', 'date_api', 'date_repeat', 'date_repeat_field', 'date_views', 'date_popup', 'date_all_day', 'devel', 'features', 'aris_promo_link', 'email', 'entityreference', 'fieldgroup', 'link', 'imce', 'navigation404', 'elements', 'entity', 'entity_token', 'less', 'libraries', 'logintoboggan', 'menu_block', 'node_clone', 'override_node_options', 'redirect', 'globalredirect', 'role_delegation', 'rss_permissions', 'strongarm', 'token', 'weight', 'transliteration', 'rules', 'rules_admin', 'search_config', 'ckeditor', 'views', 'views_slideshow', 'views_bulk_operations', 'views_slideshow_cycle', 'views_ui'));
   // Default "Basic page" to not be promoted and have comments disabled.
   variable_set('node_options_page', array('status'));
   variable_set('comment_page', COMMENT_NODE_HIDDEN);
