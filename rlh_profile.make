@@ -23,7 +23,7 @@ projects[] = better_formats
 projects[] = calendar
 projects[] = captcha
 projects[] = ckeditor
-projects[] = content_taxonomy
+; projects[] = content_taxonomy
 projects[] = context
 projects[] = ctools
 projects[] = date
@@ -61,6 +61,7 @@ projects[] = search_config
 projects[] = search404
 projects[] = site_map
 projects[] = strongarm
+projects[] = taxonomy_access_fix
 projects[] = taxonomy_manager
 projects[] = taxonomy_menu
 projects[] = token
@@ -74,6 +75,10 @@ projects[] = weight
 projects[allow_all_file_extensions][version] = 1.1
 projects[allow_all_file_extensions][type] = "module"
 projects[allow_all_file_extensions][patch][] = "http://drupal.org/files/allow_all_file_extensions-invalid_argument_supplied_for_foreach-1807380-1.patch"
+
+projects[colorbox][version] = 2.5
+projects[colorbox][type] = "module"
+projects[colorbox][patch][] = "https://drupal.org/files/issues/colorbox-mobile-on-load-and-inline-2223247-1.patch"
 
 projects[rlh_tweaks][type] = "module"
 projects[rlh_tweaks][download][type] = "git"
