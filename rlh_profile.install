@@ -162,9 +162,9 @@ function rlh_profile_install() {
   module_enable(array('context', 'context_ui', 'rlh_tweaks', 'date', 'date_api',));
   module_enable(array('date_repeat', 'date_repeat_field', 'date_views', 'date_popup', 'date_all_day',));
   module_enable(array('devel', 'features', 'aris_promo_link', 'email', 'entityreference',));
-  module_enable(array('fieldgroup', 'link', 'imce', 'navigation404', 'elements',));
+  module_enable(array('field_group', 'link', 'imce', 'navigation404', 'elements',));
   module_enable(array('entity', 'entity_token', 'less', 'libraries', 'logintoboggan',));
-  module_enable(array('menu_block', 'node_clone', 'override_node_options', 'redirect', 'globalredirect',));
+  module_enable(array('menu_block', 'clone', 'override_node_options', 'redirect', 'globalredirect',));
   module_enable(array('role_delegation', 'rss_permissions', 'strongarm', 'token', 'weight',));
   module_enable(array('transliteration', 'rules', 'rules_admin', 'search_config', 'ckeditor',));
   module_enable(array('views', 'views_slideshow', 'views_bulk_operations', 'views_slideshow_cycle', 'views_ui',));
