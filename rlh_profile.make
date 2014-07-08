@@ -86,7 +86,7 @@ projects[] = weight
 projects[] = restrict_node_page_view
 projects[] = menu_editor
 projects[] = blockgroup
-projects[] = imce_mkdir
+
 
 ; External downloads
 
