@@ -37,9 +37,12 @@ projects[] = features
 projects[] = feeds
 projects[] = field_group
 projects[] = filefield_paths
+projects[] = form_builder
 projects[] = globalredirect
 projects[] = google_analytics
 projects[] = imce
+projects[] = imce_mkdir
+projects[] = imce_plupload
 projects[] = job_scheduler
 projects[] = jquery_update
 projects[] = less
@@ -47,11 +50,16 @@ projects[] = libraries
 projects[] = link
 projects[] = location
 projects[] = logintoboggan
+projects[] = masquerade
 projects[] = menu_block
 projects[] = navigation404
+projects[] = nodeblock
 projects[] = node_clone
 projects[] = override_node_options
+projects[] = path_redirect_import
 projects[] = pathauto
+projects[] = pathauto_persist
+projects[] = plupload
 projects[] = redirect
 projects[] = recaptcha
 projects[] = role_delegation
@@ -70,7 +78,17 @@ projects[] = user_settings_access
 projects[] = views
 projects[] = views_bulk_operations
 projects[] = views_slideshow
+projects[] = webform
 projects[] = weight
+
+; New additions
+
+projects[] = restrict_node_page_view
+projects[] = menu_editor
+projects[] = blockgroup
+projects[] = imce_mkdir
+
+; External downloads
 
 projects[allow_all_file_extensions][version] = 1.1
 projects[allow_all_file_extensions][type] = "module"
