@@ -62,7 +62,6 @@ projects[] = path_redirect_import
 projects[] = pathauto
 projects[] = pathauto_persist
 projects[] = plupload
-projects[] = redirect
 projects[] = recaptcha
 projects[] = role_delegation
 projects[] = rss_permissions
@@ -92,6 +91,10 @@ projects[] = blockgroup
 
 
 ; External downloads
+
+projects[redirect][version] = 1.0-rc3
+projects[redirect][type] = "module"
+projects[redirect][patch][] =  https://www.drupal.org/files/issues/2485459-update-7100-registry-rebuild.patch
 
 projects[allow_all_file_extensions][version] = 1.1
 projects[allow_all_file_extensions][type] = "module"
