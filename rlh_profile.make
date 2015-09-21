@@ -92,7 +92,7 @@ projects[] = blockgroup
 
 ; External downloads
 
-projects[redirect][version] = 1.0-rc3
+projects[redirect][version] = 1.x-dev
 projects[redirect][type] = "module"
 projects[redirect][patch][] =  https://www.drupal.org/files/issues/2485459-update-7100-registry-rebuild.patch
 
