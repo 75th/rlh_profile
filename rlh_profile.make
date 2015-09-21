@@ -94,7 +94,7 @@ projects[] = blockgroup
 
 projects[redirect][version] = 1.x-dev
 projects[redirect][type] = "module"
-projects[redirect][patch][] =  https://www.drupal.org/files/issues/2485459-update-7100-registry-rebuild.patch
+; projects[redirect][patch][] =  https://www.drupal.org/files/issues/2485459-update-7100-registry-rebuild.patch ; This is applied to 1.x-dev already
 
 projects[allow_all_file_extensions][version] = 1.1
 projects[allow_all_file_extensions][type] = "module"
