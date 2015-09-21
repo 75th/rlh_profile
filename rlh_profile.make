@@ -106,6 +106,11 @@ projects[rlh_tweaks][download][type] = "git"
 projects[rlh_tweaks][download][url] = "git@bitbucket.org:75th/rlh-tweaks.git"
 projects[rlh_tweaks][download][branch] = "master"
 
+projects[rlh_defaults][type] = "module"
+projects[rlh_defaults][download][type] = "git"
+projects[rlh_defaults][download][url] = "git@bitbucket.org:75th/rlh-defaults.git"
+projects[rlh_defaults][download][branch] = "dev"
+
 libraries[lessphp][type] = "libraries"
 libraries[lessphp][destination] = "libraries"
 libraries[lessphp][download][type] = "file"
