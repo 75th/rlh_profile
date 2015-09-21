@@ -2,18 +2,18 @@
 ; ------------
 ; Each makefile should begin by declaring the core version of Drupal that all
 ; projects should be compatible with.
-  
+
 core = 7.x
-  
+
 ; API version
 ; ------------
 ; Every makefile needs to declare its Drush Make API version. This version of
 ; drush make uses API version `2`.
-  
+
 api = 2
 
 projects[] = drupal
-  
+
 ; Modules
 ; --------
 projects[] = admin_menu
@@ -23,6 +23,7 @@ projects[] = better_formats
 projects[] = calendar
 projects[] = captcha
 projects[] = ckeditor
+projects[] = content_access
 ; projects[] = content_taxonomy
 projects[] = context
 projects[] = ctools
@@ -37,6 +38,7 @@ projects[] = features
 projects[] = feeds
 projects[] = field_group
 projects[] = filefield_paths
+projects[] = flexslider
 projects[] = form_builder
 projects[] = globalredirect
 projects[] = google_analytics
@@ -80,6 +82,7 @@ projects[] = views_bulk_operations
 projects[] = views_slideshow
 projects[] = webform
 projects[] = weight
+projects[] = xautoload
 
 ; New additions
 
@@ -103,10 +106,26 @@ projects[rlh_tweaks][download][type] = "git"
 projects[rlh_tweaks][download][url] = "git@bitbucket.org:75th/rlh-tweaks.git"
 projects[rlh_tweaks][download][branch] = "master"
 
-projects[aris_promo_link][type] = "module"
-projects[aris_promo_link][download][type] = "git"
-projects[aris_promo_link][download][url] = "git@bitbucket.org:aristotleselect/aris_promo_link.git"
-projects[aris_promo_link][download][branch] = "master"
+libraries[lessphp][type] = "libraries"
+libraries[lessphp][destination] = "libraries"
+libraries[lessphp][download][type] = "file"
+libraries[lessphp][download][url] = "https://github.com/leafo/lessphp/archive/master.zip"
+libraries[lessphp][directory_name] = lessphp
+
+libraries[ckeditor][type] = "libraries"
+libraries[ckeditor][destination] = "libraries"
+libraries[ckeditor][download][type] = "file"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.3.5/ckeditor_4.3.5_full.zip"
+
+libraries[colorbox][type] = "libraries"
+libraries[colorbox][destination] = "libraries"
+libraries[colorbox][download][type] = "file"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/master.zip"
+
+libraries[flexslider][type] = "libraries"
+libraries[flexslider][destination] = "libraries"
+libraries[flexslider][download][type] = "file"
+libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/zipball/master"
 
 ; THEMES
 projects[zen][version] = 3.2
