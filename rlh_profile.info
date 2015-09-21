@@ -25,4 +25,5 @@ dependencies[] = overlay
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
+dependencies[] = rlh_defaults
 files[] = rlh_profile.profile
