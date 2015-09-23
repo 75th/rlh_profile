@@ -160,6 +160,8 @@ function rlh_profile_install() {
 
 	// Disable some modules
 	module_disable(array('overlay', 'toolbar', 'color', 'comment', 'contextual', 'dashboard', 'rdf'));
+
+	/*
 	module_enable(array('features', 'rlh_defaults'));
 	module_enable(array('php', 'user_settings_access', 'admin_menu', 'admin_menu_toolbar', 'ctools'));
 	module_enable(array('admin_menu'));
@@ -172,6 +174,7 @@ function rlh_profile_install() {
 	module_enable(array('role_delegation', 'rss_permissions', 'strongarm', 'token', 'weight',));
 	module_enable(array('transliteration', 'rules', 'rules_admin', 'search_config', 'ckeditor',));
 	module_enable(array('views', 'views_slideshow', 'views_bulk_operations', 'views_slideshow_cycle', 'views_ui',));
+	*/
 
 	// Default "Basic page" to not be promoted and have comments disabled.
 	variable_set('node_options_page', array('status'));
