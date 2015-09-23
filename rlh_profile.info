@@ -2,6 +2,8 @@ name = RLH Drupal
 description = Lanny Heidbreder's default Drupal install
 core = 7.x
 
+exclusive = TRUE
+
 ; Modules from standard.info
 dependencies[] = block
 dependencies[] = color
