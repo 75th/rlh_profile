@@ -54,7 +54,6 @@ projects[] = location
 projects[] = logintoboggan
 projects[] = masquerade
 projects[] = menu_block
-projects[] = navigation404
 projects[] = nodeblock
 projects[] = node_clone
 projects[] = override_node_options
@@ -78,10 +77,10 @@ projects[] = transliteration
 projects[] = user_settings_access
 projects[] = views
 projects[] = views_bulk_operations
-projects[] = views_slideshow
 projects[] = webform
 projects[] = weight
 projects[] = xautoload
+
 
 ; New additions
 
