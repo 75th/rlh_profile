@@ -35,7 +35,6 @@ dependencies[] = options
 dependencies[] = override_node_options
 dependencies[] = path
 dependencies[] = redirect
-dependencies[] = rlh_defaults
 dependencies[] = rlh_tweaks
 dependencies[] = role_delegation
 dependencies[] = rss_permissions
