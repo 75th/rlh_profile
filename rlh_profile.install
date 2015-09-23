@@ -168,4 +168,6 @@ function rlh_profile_install() {
 		'format' => 'g:i a',
 		'locked' => TRUE,
 	);
+
+	drupal_set_message(t('Remember to enable the rlh_defaults module using drush!'), 'warning');
 }
