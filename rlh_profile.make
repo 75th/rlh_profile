@@ -25,7 +25,6 @@ projects[] = calendar
 projects[] = captcha
 projects[] = ckeditor
 projects[] = content_access
-; projects[] = content_taxonomy
 projects[] = context
 projects[] = ctools
 projects[] = date
@@ -56,22 +55,24 @@ projects[] = location
 projects[] = logintoboggan
 projects[] = masquerade
 projects[] = menu_block
-projects[] = nodeblock
+projects[] = menu_editor
 projects[] = node_clone
+projects[] = nodeblock
 projects[] = override_node_options
 projects[] = path_redirect_import
 projects[] = pathauto
 projects[] = pathauto_persist
 projects[] = plupload
 projects[] = recaptcha
+projects[] = restrict_node_page_view
 projects[] = revisioning
 projects[] = role_delegation
 projects[] = rss_permissions
 projects[] = rules
-projects[] = search_config
 projects[] = search404
-projects[] = site_map
+projects[] = search_config
 projects[] = simplified_menu_admin
+projects[] = site_map
 projects[] = strongarm
 projects[] = taxonomy_access_fix
 projects[] = taxonomy_manager
@@ -84,13 +85,6 @@ projects[] = views_bulk_operations
 projects[] = webform
 projects[] = weight
 projects[] = xautoload
-
-
-; New additions
-
-projects[] = restrict_node_page_view
-projects[] = menu_editor
-projects[] = blockgroup
 
 
 ; External downloads
