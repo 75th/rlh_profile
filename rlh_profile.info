@@ -6,6 +6,7 @@ exclusive = TRUE
 
 ; Modules from standard.info
 dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
 dependencies[] = block
 dependencies[] = ckeditor
 dependencies[] = clone
