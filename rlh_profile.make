@@ -32,6 +32,7 @@ projects[] = date
 projects[] = elements
 projects[] = email
 projects[] = entity
+projects[] = entity_view_mode
 projects[] = entityreference
 projects[] = extlink
 projects[] = features
@@ -120,16 +121,19 @@ projects[rlh_defaults][download][type] = "git"
 projects[rlh_defaults][download][url] = "git@bitbucket.org:75th/rlh_defaults.git"
 projects[rlh_defaults][download][branch] = "dev"
 
+
 libraries[lessphp][type] = "libraries"
 libraries[lessphp][destination] = "libraries"
 libraries[lessphp][download][type] = "file"
-libraries[lessphp][download][url] = "https://github.com/leafo/lessphp/archive/master.zip"
+libraries[lessphp][download][url] = "https://github.com/oyejorge/less.php/archive/master.zip"
 libraries[lessphp][directory_name] = lessphp
 
 libraries[ckeditor][type] = "libraries"
 libraries[ckeditor][destination] = "libraries"
-libraries[ckeditor][download][type] = "file"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.3.5/ckeditor_4.3.5_full.zip"
+libraries[ckeditor][download][type] = "git"
+libraries[ckeditor][download][url] = "git@github.com:ckeditor/ckeditor-releases.git"
+libraries[ckeditor][download][branch] = "full/stable"
+libraries[ckeditor][directory_name] = ckeditor
 
 libraries[colorbox][type] = "libraries"
 libraries[colorbox][destination] = "libraries"
@@ -141,8 +145,9 @@ libraries[flexslider][destination] = "libraries"
 libraries[flexslider][download][type] = "file"
 libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/zipball/master"
 
+
 ; THEMES
-projects[zen][version] = 3.2
+projects[zen][version] = 3.3
 projects[zen][type] = "theme"
 
 projects[seven_point_one][type] = "theme"
