@@ -112,6 +112,11 @@ function rlh_profile_install() {
 	variable_set('less_autoprefixer', TRUE);
 	variable_set('less_engine', 'less.js');
 
+	// jQuery Update settings
+	variable_set('jquery_update_jquery_migrate_enable', TRUE);
+	variable_set('jquery_update_jquery_version', '1.11');
+	variable_set('jquery_update_compression_type', 'min');
+
 	// Create a default role for site administrators, with all available permissions assigned.
 	$admin_role = new stdClass();
 	$admin_role->name = 'administrator';
