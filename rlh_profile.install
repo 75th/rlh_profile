@@ -52,7 +52,6 @@ function rlh_profile_install() {
 	filter_format_save((object) $php_format);
 
 
-	// Enable some standard blocks.
 	$default_theme = variable_get('theme_default', 'bartik');
 	$admin_theme = 'seven_point_one';
 	$values = array(
