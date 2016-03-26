@@ -45,13 +45,15 @@ exclusive = TRUE
 ; dependencies[] = less
 
 ;;;; Error below
-; dependencies[] = logintoboggan
-; dependencies[] = menu_block
-; dependencies[] = override_node_options
-; dependencies[] = redirect
+  dependencies[] = logintoboggan
+  dependencies[] = menu_block
+  dependencies[] = override_node_options
+  dependencies[] = redirect
 ; dependencies[] = rlh_tweaks
 ; dependencies[] = role_delegation
 ; dependencies[] = rss_permissions
+
+;;; Error not in these; error above
   dependencies[] = search_config
   dependencies[] = simplified_menu_admin
   dependencies[] = strongarm
