@@ -28,34 +28,28 @@ exclusive = TRUE
   dependencies[] = taxonomy
   dependencies[] = views
   dependencies[] = views_ui
-
-;;;; Error's not in these, it seems
-; dependencies[] = devel
-; dependencies[] = admin_menu
-; dependencies[] = admin_menu_toolbar
-; dependencies[] = blockgroup
-; dependencies[] = ckeditor
-; dependencies[] = clone
-; dependencies[] = entity_token
-; dependencies[] = features
-; dependencies[] = field_group
-; dependencies[] = globalredirect
-; dependencies[] = imce
-; dependencies[] = jquery_update
-; dependencies[] = less
-
-;;;; Error below
+  dependencies[] = devel
+  dependencies[] = admin_menu
+  dependencies[] = admin_menu_toolbar
+  dependencies[] = blockgroup
+  dependencies[] = ckeditor
+  dependencies[] = clone
+  dependencies[] = entity_token
+  dependencies[] = features
+  dependencies[] = field_group
+  dependencies[] = globalredirect
+  dependencies[] = imce
+  dependencies[] = jquery_update
+  dependencies[] = less
   dependencies[] = logintoboggan
   dependencies[] = menu_block
   dependencies[] = override_node_options
   dependencies[] = redirect
 
-;;;; Error below
   dependencies[] = rlh_tweaks
-; dependencies[] = role_delegation
-; dependencies[] = rss_permissions
+  dependencies[] = role_delegation
+  dependencies[] = rss_permissions
 
-;;; Error not in these; error above
   dependencies[] = search_config
   dependencies[] = simplified_menu_admin
   dependencies[] = strongarm
