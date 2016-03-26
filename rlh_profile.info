@@ -29,7 +29,7 @@ exclusive = TRUE
   dependencies[] = views
   dependencies[] = views_ui
 
-
+;;;; Error's not in these, it seems
 ; dependencies[] = devel
 ; dependencies[] = admin_menu
 ; dependencies[] = admin_menu_toolbar
@@ -43,13 +43,15 @@ exclusive = TRUE
 ; dependencies[] = imce
 ; dependencies[] = jquery_update
 ; dependencies[] = less
-  dependencies[] = logintoboggan
-  dependencies[] = menu_block
-  dependencies[] = override_node_options
-  dependencies[] = redirect
-  dependencies[] = rlh_tweaks
-  dependencies[] = role_delegation
-  dependencies[] = rss_permissions
+
+;;;; Error below
+; dependencies[] = logintoboggan
+; dependencies[] = menu_block
+; dependencies[] = override_node_options
+; dependencies[] = redirect
+; dependencies[] = rlh_tweaks
+; dependencies[] = role_delegation
+; dependencies[] = rss_permissions
   dependencies[] = search_config
   dependencies[] = simplified_menu_admin
   dependencies[] = strongarm
