@@ -49,7 +49,9 @@ exclusive = TRUE
   dependencies[] = menu_block
   dependencies[] = override_node_options
   dependencies[] = redirect
-; dependencies[] = rlh_tweaks
+
+;;;; Error below
+  dependencies[] = rlh_tweaks
 ; dependencies[] = role_delegation
 ; dependencies[] = rss_permissions
 
