@@ -28,7 +28,7 @@ projects[] = content_access
 projects[] = context
 projects[] = ctools
 projects[] = date
-projects[] = elements
+
 projects[] = email
 projects[] = entity
 projects[] = entity_view_mode
@@ -88,6 +88,10 @@ projects[] = xautoload
 
 
 ; External downloads
+
+projects[elements][version] = 7.x-1.4
+projects[elements][type] = "module"
+projects[elements][patch][] = https://www.drupal.org/files/issues/elements-pattern-validation-2029557-5.patch
 
 projects[redirect][version] = 1.x-dev
 projects[redirect][type] = "module"
