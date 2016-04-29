@@ -119,6 +119,11 @@ projects[rlh_defaults][download][type] = "git"
 projects[rlh_defaults][download][url] = "git@bitbucket.org:75th/rlh_defaults.git"
 projects[rlh_defaults][download][branch] = "dev"
 
+projects[content_list][type] = "module"
+projects[content_list][download][type] = "git"
+projects[content_list][download][url] = "git@bitbucket.org:75th/content_list.git"
+projects[content_list][download][branch] = "dev"
+
 
 libraries[lessphp][type] = "libraries"
 libraries[lessphp][destination] = "libraries"
