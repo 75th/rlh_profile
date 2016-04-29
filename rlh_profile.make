@@ -17,7 +17,7 @@ projects[] = drupal
 ; Modules
 ; --------
 projects[] = admin_menu
-projects[] = auto_entitylabel
+projects[auto_entitylabel][version] = 7.x-1.x-dev
 projects[] = backup_migrate
 projects[] = better_formats
 projects[] = blockgroup
