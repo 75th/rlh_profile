@@ -116,6 +116,9 @@ function rlh_profile_install() {
 	variable_set('jquery_update_jquery_version', '1.11');
 	variable_set('jquery_update_compression_type', 'min');
 
+	// Suppress Drupal's menu blocks in favor of menu_block's
+	variable_set('menu_block_suppress_core', TRUE);
+
 	// Create a default role for site administrators, with all available permissions assigned.
 	$admin_role = new stdClass();
 	$admin_role->name = 'administrator';
