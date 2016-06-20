@@ -17,7 +17,7 @@ projects[] = drupal
 ; Modules
 ; --------
 projects[] = admin_menu
-projects[] = auto_entitylabel
+projects[auto_entitylabel][version] = 7.x-1.x-dev
 projects[] = backup_migrate
 projects[] = better_formats
 projects[] = blockgroup
@@ -118,6 +118,11 @@ projects[rlh_defaults][type] = "module"
 projects[rlh_defaults][download][type] = "git"
 projects[rlh_defaults][download][url] = "git@bitbucket.org:75th/rlh_defaults.git"
 projects[rlh_defaults][download][branch] = "master"
+
+projects[content_list][type] = "module"
+projects[content_list][download][type] = "git"
+projects[content_list][download][url] = "git@bitbucket.org:75th/content_list.git"
+projects[content_list][download][branch] = "dev"
 
 
 libraries[lessphp][type] = "libraries"
