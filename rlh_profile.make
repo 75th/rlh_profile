@@ -17,7 +17,7 @@ projects[] = drupal
 ; Modules
 ; --------
 projects[] = admin_menu
-projects[auto_entitylabel][version] = 7.x-1.x-dev
+projects[auto_entitylabel][version] = 1.x-dev
 projects[] = backup_migrate
 projects[] = better_formats
 projects[] = blockgroup
@@ -89,7 +89,7 @@ projects[] = xautoload
 
 ; External downloads
 
-projects[elements][version] = 7.x-1.4
+projects[elements][version] = 1.4
 projects[elements][type] = "module"
 projects[elements][patch][] = https://www.drupal.org/files/issues/elements-pattern-validation-2029557-5.patch
 
