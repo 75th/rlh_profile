@@ -112,12 +112,12 @@ projects[devel][patch][] = "https://www.drupal.org/files/issues/execute-only-onc
 projects[rlh_tweaks][type] = "module"
 projects[rlh_tweaks][download][type] = "git"
 projects[rlh_tweaks][download][url] = "git@bitbucket.org:75th/rlh-tweaks.git"
-projects[rlh_tweaks][download][branch] = "master"
+projects[rlh_tweaks][download][branch] = "dev"
 
 projects[rlh_defaults][type] = "module"
 projects[rlh_defaults][download][type] = "git"
 projects[rlh_defaults][download][url] = "git@bitbucket.org:75th/rlh_defaults.git"
-projects[rlh_defaults][download][branch] = "master"
+projects[rlh_defaults][download][branch] = "dev"
 
 
 libraries[lessphp][type] = "libraries"
@@ -151,4 +151,4 @@ projects[zen][type] = "theme"
 projects[seven_point_one][type] = "theme"
 projects[seven_point_one][download][type] = "git"
 projects[seven_point_one][download][url] = "git@bitbucket.org:75th/seven-point-one.git"
-projects[seven_point_one][download][branch] = "master"
+projects[seven_point_one][download][branch] = "dev"
